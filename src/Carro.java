@@ -1,14 +1,30 @@
 public class Carro {
+    /** Marca del carro */
     private String marca;
+    /** Kilometraaje del carro */
     private int kilometraje;
+    /** Año del carro */
     private int anio;
     private String color;
+    /** Modelo del carro */
     private String modelo;
+    /** Placa del carro */
     private String placa;
+    /** Motor del carro */
     private String motor;
 
     private Carro(){}
 
+    /**
+     * Constructor de la clase Carro
+     * @param marca
+     * @param kilometraje
+     * @param anio
+     * @param color
+     * @param modelo
+     * @param placa
+     * @param motor
+     */
     public Carro(String marca, int kilometraje, int anio, String color, String modelo, String placa, String motor) {
         this.marca = marca;
         this.kilometraje = kilometraje;

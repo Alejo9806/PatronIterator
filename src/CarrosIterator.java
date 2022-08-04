@@ -1,10 +1,18 @@
 public interface CarrosIterator {
-    //Obtiene el siguiente usuario
+    /**
+     * Obtiene el siguiente carro a iterar.
+     * @return
+     */
     Carro next();
 
-    //Reinicia el contador (el iterador)
+    /**
+     * Resetea el iterador a la posicion 0
+     */
     void reset();
 
-    //Hay mas usuarios iterando?
+    /**
+     * Indica si hay mas usuarios para iterar
+     * @return
+     */
     boolean hasMore();
 }
